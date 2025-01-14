@@ -1,0 +1,22 @@
+<div class="header-text">
+    Expense Tracker
+</div>
+<div class="m-login-container">
+    <div class="s-login-container">
+        <div class="input-field">
+            <input 
+                pInputText 
+                placeholder="Username"
+                id="username" 
+                aria-describedby="username-help" 
+                [(ngModel)]="userName"  />
+        </div>
+        <div class="input-field">
+            <p-password  [feedback]="false" [toggleMask]="true" placeholder="Password" [(ngModel)]="password"/>
+        </div>
+        <div class="login-button-container">
+            <button  pButton  pRipple  label="Login"  class="p-button-success btn-height-30" (click)="login()" [disabled]="!userName || !password">
+            </button>
+        </div>
+    </div>
+</div>

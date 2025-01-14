@@ -1,0 +1,38 @@
+.m-login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.s-login-container {
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    margin-top: 20px;
+}
+
+.login-button-container {
+    margin-top: 25px;
+}
+
+.btn-height-30 {
+    height: 30px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
